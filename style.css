@@ -69,6 +69,7 @@ img.avatar {
 .my-name {
   font-size: 48px;
   line-height: 1;
+  text-transform: capitalize;
 }
 
 .my-title {
@@ -86,6 +87,7 @@ img.avatar {
   display: flex;
   align-items: center;
   flex: 1;
+  font-weight: bold;
 }
 
 .link-item svg {
@@ -132,6 +134,10 @@ img.avatar {
 .skills-container ul {
   margin-left: 20px;
   list-style-type: disc;
+}
+
+.skills-container h4 {
+  font-weight: bold;
 }
 
 /***********************************
